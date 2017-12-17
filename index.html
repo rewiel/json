@@ -18,7 +18,7 @@
             <script>
                 $.getJSON('data.json', function(data) {
                     $(data.users).each(function(index, item) {
-                      $('#table').append('<tr><td>' + item.users[i].firstName + '</td><td>' + item.users[i].groupname + '</td><td>' + item.users[i].role + '</td><td>' + item.users[i].linkForPage + '</td><td>' + item.users[i].markFirstModule + '</td><td>' + item.users[i].linkProject + '</td><td>' + item.users[i].markSecondModule + '</td></tr>');
+                      $('#table').append('<tr><td>' + item.firstName + '</td><td>' + item.groupname + '</td><td>' + item.role + '</td><td>' + item.linkForPage + '</td><td>' + item.markFirstModule + '</td><td>' + item.linkProject + '</td><td>' + item.markSecondModule + '</td></tr>');
                     });
                 });
             </script>
